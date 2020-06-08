@@ -1,0 +1,80 @@
+@font-face {
+    font-family: BalsamiqSansRegular;
+    src: url('../public/BalsamiqSans-Regular.ttf');
+}
+@font-face {
+    font-family: BalsamiqSansBold;
+    src: url('../public/BalsamiqSans-Bold.ttf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #686ac9;
+    -webkit-font-smoothing: antialiased;
+    color: #f0ffff;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: BalsamiqSansRegular;
+    overflow-x: hidden;
+}
+
+* {
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    color: #f0ffff;
+}
+
+a:hover{
+    color: #e0ca05;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    min-height: 500px;
+    margin-bottom: 80px;
+}
+
+.titleParagraph-big,
+.paragraph-big,
+.paragraph-middle,
+.paragraph-min{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.titleParagraph-big{    
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.paragraph-big{
+    font-size: 28px;
+}
+.paragraph-middle{
+    font-size: 24px;
+}
+.paragraph-min{
+    font-size: 20px;
+}
+
+.titleParagraph-big .simbol,
+.paragraph-big .simbol,
+.paragraph-middle .simbol,
+.paragraph-min .simbol{
+    font-size: 30px;
+    color: #e0ca05;
+}
+
+.titleParagraph-big a,
+.paragraph-big a,
+.paragraph-middle a,
+.paragraph-min a{
+    color: #e0ca05;
+}

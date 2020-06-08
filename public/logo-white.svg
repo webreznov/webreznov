@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 56" width="109" height="69">
+	<defs>
+		<image width="26" height="56" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAA4AgMAAACeQABgAAAAAXNSR0IB2cksfwAAAAxQTFRFAAAAAAAAAAAA////NVcRhAAAAAR0Uk5TAAMF/+GgwwsAAAA/SURBVHicY2BjQAX/P0DpPxDaHkb/h9D8GPQBMM0Mp2EGoNPoBuI0GN1AXAYTbSClLiXRQApcSqzXIeIMBgwACe5U09EroAMAAAAASUVORK5CYII="/>
+		<image width="28" height="57" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAA5BAMAAADXQlYiAAAAAXNSR0IB2cksfwAAABJQTFRFAAAA////AAAAAAAAAAAAAAAA/h6U3wAAAAZ0Uk5TAP8GJgMLAZYv2AAAAD9JREFUeJxjYEAAQQYUICgogMRjFBQUROUKoKglwB0UJjHg5A4KkzC1DkaTBHBzB4VJ9EqKykwOSDyGAGQOAwAmgQyFndsJdgAAAABJRU5ErkJggg=="/>
+		<image width="28" height="57" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAA5BAMAAADXQlYiAAAAAXNSR0IB2cksfwAAABVQTFRFAAAA////AAAAAAAAAAAAAAAAAAAAlrbZnAAAAAd0Uk5TAP8BBAIFCp2ENkYAAAA+SURBVHicY2AUFGRAAoKCggK4uYwYXHTNJJkliJtLwCz8DqGxWWQHEDXNGg1sOroLXTNaplF2QuYxsCYwAADmegzDN+dFyAAAAABJRU5ErkJggg=="/>
+		<image width="30" height="58" id="img4" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA6AgMAAADaYwERAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA////AAAAc8aDcQAAAAN0Uk5TAP8Ch1xYgAAAADxJREFUeJxjYACDAAYoCIXSjKEBMIYDhMGKYEDViGIyQmDGwBlwY0gxD9OYwW4epjGDyjxReARjggYIBQAkqx3Ux7XKCQAAAABJRU5ErkJggg=="/>
+		<image width="36" height="6" id="img5" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAGAQMAAACRqq7mAAAAAXNSR0IB2cksfwAAAAZQTFRF////AAAAVcLTfgAAAAJ0Uk5T/wDltzBKAAAADUlEQVR4nGNgIATYGAAAMAAHGBnreQAAAABJRU5ErkJggg=="/>
+		<image width="31" height="6" id="img6" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAGAQMAAAABudcpAAAAAXNSR0IB2cksfwAAAAZQTFRF////AAAAVcLTfgAAAAJ0Uk5T/wDltzBKAAAAEklEQVR4nGNgYGBgYkABTAgCAAB2AAl7UjXGAAAAAElFTkSuQmCC"/>
+		<image width="16" height="36" id="img7" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAkBAMAAAByNqfpAAAAAXNSR0IB2cksfwAAABJQTFRFAAAA////AAAAAAAAAAAAAAAA/h6U3wAAAAZ0Uk5TAP8WAR0Gxn1rQAAAACxJREFUeJxjYGAQZAADRkEoQxCJIQCTwmRQrJq+2sixBCgLoZgYmBlwAVcGAHafBpxIFe0FAAAAAElFTkSuQmCC"/>
+		<image width="18" height="26" id="img8" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAaAgMAAADH8+SpAAAAAXNSR0IB2cksfwAAAAxQTFRFAAAA////AAAAAAAAyNt3CwAAAAR0Uk5TAP8KAhnq29EAAABGSURBVHicY2BgDGAAAtFQIMEYGgrksIaGhsBI0dBQkASQxwCWd4CSDQwMYDaMDMBBItSAdB0AkwJg0yAmI9sFsR3iErCrAKnjEuVDkJduAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Shape 1" href="#img1" x="2" y="0" />
+	<use id="Shape 2" href="#img2" x="21" y="1" />
+	<use id="Shape 3" href="#img3" x="15" y="1" />
+	<use id="Shape 4" href="#img4" x="34" y="1" />
+	<use id="Shape 5" href="#img5" x="43" y="2" />
+	<use id="Shape 6" href="#img6" x="49" y="22" />
+	<use id="Shape 7" href="#img7" x="59" y="24" />
+	<use id="Shape 8" href="#img8" x="69" y="2" />
+</svg>
