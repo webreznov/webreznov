@@ -1,19 +1,9 @@
-import { PreviewPhoto, PreviewImg } from './main-style'
+import { PreviewPhoto, PreviewImg, SuperHeader } from './main-style'
 import HeaderBlock from '../components/HeaderBlock/HeaderBlock'
 import Footer from '../components/Footer/Footer'
 import HeadTemplate from '../components/HeadTemplate/HeadTemplate'
 import LinkButton from '../components/common/LinkButton/LinkButton'
 import Link from 'next/Link'
-
-
-/*
-const mongoose = require('mongoose');
-mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb+srv://remizovmaxim:!jump439jeT@cluster0-vujqr.mongodb.net/<dbname>?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
-const Cat = mongoose.model('Cat', { name: String });
-const kitty = new Cat({ name: 'Zildjian' });
-kitty.save().then(() => console.log('meow'));
- */
 
 
 export default function Home() {
@@ -26,6 +16,10 @@ export default function Home() {
         <h1>#webreznov_studio</h1>
         <h2>Главная</h2>
         <hr />
+        <SuperHeader>
+          <h1>Студия веб-разработок</h1>
+          <span></span>
+        </SuperHeader>
         <p className='titleParagraph-big'>Веб-разработка во всей её красе <span className='simbol'>!</span></p>
         <p className='paragraph-middle'>Требуется дизайн-макет <span className='simbol'>?</span> Переходи <LinkButton link='/contacts' name='сюда' /> и свяжись с нами <span className='simbol'>.</span></p>
         <p className='paragraph-big'>Уже есть макет <span className='simbol'>?</span> Тогда осталось сверстать его <span className='simbol'>!</span> Переходи <LinkButton link='/contacts' name='сюда' /> и свяжись с нами <span className='simbol'>.</span></p>
