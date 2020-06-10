@@ -12,6 +12,7 @@ export default function Home() {
         <h1>webreznov studio</h1>
         <h2>Статьи</h2>
         <hr/>
+        <p className='paragraph-middle'>Не всё сразу. Эта страница в разработке:)</p>
       </main>
       <Footer/>
       

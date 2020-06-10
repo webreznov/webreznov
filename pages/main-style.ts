@@ -17,6 +17,8 @@ export const SuperHeader = styled.div`
   background: url('./super-background.png') repeat;
   height: 300px;
   width: 100%;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   h1{
     position: relative;
     margin: 0;
@@ -27,6 +29,8 @@ export const SuperHeader = styled.div`
     word-wrap: break-word;
     white-space: nowrap;
     z-index: 100;
+    filter: none;
+    -webkit-filter: none;
   }
   span{
     position: absolute;
