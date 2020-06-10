@@ -1,10 +1,11 @@
-import LinkButton from "../common/LinkButton/LinkButton";
-import { HeaderStyle, ListStyle } from './style';
+import LinkButton from "../common/LinkButton/LinkButton"
+import Link from "next/link"
+import { HeaderStyle, ListStyle } from './style'
 
 const HeaderBlock = () => {
     return (
         <HeaderStyle>
-            <a href='/'><img src='logo-white.svg' alt='logo' /></a>
+            <Link href='/'><a><img src='logo-white.svg' alt='logo' /></a></Link>
             <ListStyle>
                 <li><LinkButton name='О нас' link='/about' /></li>
                 <li><LinkButton name='Портфолио' link='/portfolio' /></li>

@@ -1,6 +1,8 @@
+import Link from 'next/link';
+
 const LinkButton = (props) => {
     return (
-        <a href={props.link}>{props.name}</a>
+        <Link href={props.link}><a>{props.name}</a></Link>
     )
 }
 

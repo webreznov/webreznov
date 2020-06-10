@@ -3,7 +3,7 @@ import HeaderBlock from '../components/HeaderBlock/HeaderBlock'
 import Footer from '../components/Footer/Footer'
 import HeadTemplate from '../components/HeadTemplate/HeadTemplate'
 import LinkButton from '../components/common/LinkButton/LinkButton'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 
 export default function Home() {
