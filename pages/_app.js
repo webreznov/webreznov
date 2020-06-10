@@ -1,5 +1,6 @@
 import React from 'react'
 import NextApp from 'next/app'
+import '../style/style.css';
 import { ThemeProvider } from 'styled-components'
 const theme = {
   primary: 'green',
