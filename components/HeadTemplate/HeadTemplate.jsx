@@ -1,10 +1,6 @@
 import Head from "next/head"
 
-type PropsType = {
-    titleName: string
-}
-
-const HeadTemplate = (props: PropsType) => {
+const HeadTemplate = (props) => {
     return (<Head>         
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{`WebReznov&co - ${props.titleName}`}</title>        

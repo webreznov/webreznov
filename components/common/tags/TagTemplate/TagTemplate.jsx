@@ -1,12 +1,6 @@
 import { TagWrapp, TagImgWrapp, TagDescriptionWrapp } from './TagTemplateStyle'
 
-type PropsType = {
-    urlImg: string
-    TagHeader: string
-    description: string
-}
-
-const TagTemplate = (props: PropsType) => {
+const TagTemplate = (props) => {
 
     return (<TagWrapp>
         <TagImgWrapp>

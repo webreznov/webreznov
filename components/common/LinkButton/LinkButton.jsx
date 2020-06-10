@@ -1,11 +1,6 @@
 import Link from 'next/Link';
 
-type PropsType = {
-    name: string
-    link: string
-}
-
-const LinkButton = (props: PropsType) => {
+const LinkButton = (props) => {
     return (
         <Link href={props.link}><a>{props.name}</a></Link>
     )

@@ -10,15 +10,7 @@ import TagSQL from '../common/tags/TagSQL/TagSQL'
 import TagWordpress from '../common/tags/TagWordpress/TagWordpress'
 import { Preview, CardBlock } from './style'
 
-
-type PropsType = {
-    name_work: string
-    priviewUrl: string
-    tags: string[]
-    descript: string
-}
-
-const CardWork = (props: PropsType) => {
+const CardWork = (props) => {
     const renderTags = (tagsArray) => {
         let resultArray = [];
         tagsArray.forEach((i) => {            

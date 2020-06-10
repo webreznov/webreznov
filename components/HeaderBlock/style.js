@@ -13,9 +13,9 @@ export const ListStyle = styled.ul`
     align-items: center;
     padding:0;
     margin:0;
+    li{
+        padding: 5px 10px;
+        font-size: 20px;
+    }
     `;
-
-export const ItemStyle = styled.li`
-    padding: 5px 10px;
-    font-size: 20px;
-    `;
+    

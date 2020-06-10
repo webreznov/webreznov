@@ -1,4 +1,4 @@
-import { PreviewPhoto, PreviewImg, SuperHeader } from './main-style'
+import { PreviewPhoto, PreviewImg, SuperHeader } from '../style/main-style'
 import HeaderBlock from '../components/HeaderBlock/HeaderBlock'
 import Footer from '../components/Footer/Footer'
 import HeadTemplate from '../components/HeadTemplate/HeadTemplate'
