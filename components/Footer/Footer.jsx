@@ -1,6 +1,5 @@
-import LinkButton from "../common/LinkButton/LinkButton"
-import Link from "next/Link"
-import { FooterStyle } from './FooterStyle'
+import LinkButton from "../common/LinkButton/LinkButton";
+import { FooterStyle } from './FooterStyle';
 
 const Footer = () => {
     return (
@@ -12,13 +11,13 @@ const Footer = () => {
                 {/* <div><LinkButton name='vk' link='#' /></div> */}
                 {/* <div><LinkButton name='facebook' link='#' /></div> */}
             </div>
-            <Link href='/'>
-                <a>
-                    <img src='logo-white.svg' alt='logo' />
-                    <p className='paragraph-min'>Копирование материалов без согласия автора строго ЗАПРЕЩЕНО <span className='simbol'>!</span>
-                    </p>
-                </a>
-            </Link>
+
+            <a href='/'>
+                <img src='logo-white.svg' alt='logo' />
+                <p className='paragraph-min'>Копирование материалов без согласия автора строго ЗАПРЕЩЕНО <span className='simbol'>!</span>
+                </p>
+            </a>
+
         </FooterStyle>
     )
 }
