@@ -1,5 +1,5 @@
 import LinkButton from "../common/LinkButton/LinkButton"
-import Link from "next/Link"
+import Link from "next/link"
 import { FooterStyle } from './FooterStyle'
 
 const Footer = () => {
