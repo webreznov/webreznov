@@ -17,5 +17,8 @@ export const ListStyle = styled.ul`
         padding: 5px 10px;
         font-size: 20px;
     }
+    @media all and (max-width: 767px){
+      flex-direction: column;
+    }
     `;
     

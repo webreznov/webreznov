@@ -78,3 +78,12 @@ main{
 .paragraph-min a{
     color: #e0ca05;
 }
+
+@media all and (max-width: 767px){
+    .titleParagraph-big,
+.paragraph-big,
+.paragraph-middle,
+.paragraph-min, p, h1, h2{    
+    padding: 0 15px;
+}
+}

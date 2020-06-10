@@ -31,6 +31,12 @@ export const SuperHeader = styled.div`
     z-index: 100;
     filter: none;
     -webkit-filter: none;
+    @media all and (max-width: 767px){
+      font-size: 48px;
+      line-height: 80px;
+      word-break: normal;
+      white-space: normal;
+    }
   }
   span{
     position: absolute;
