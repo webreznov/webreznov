@@ -10,6 +10,8 @@ const HeadTemplate = (props) => {
         <meta name="keywords" content="сайт цена, веб агентство, создание сайта, react, wordpress, modx" />
         <meta property="og:title" content="WebReznov&co - Веб-студия" />
         <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico"/>
+        {props.google_metrika ? props.google_metrika : ''}
+        {props.yandex_metrika ? props.yandex_metrika : ''}
     </Head>)
 }
 
