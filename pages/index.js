@@ -12,7 +12,7 @@ export default function Home() {
       <HeadTemplate 
       titleName='Главная'
       google_metrika={<meta name="google-site-verification" content="JMhYCMc3P0fI5OUQdMXK8ccpkzKJY_bFPigeOCOtmRY" />}
-      yandex_metrika=''
+      yandex_metrika={<meta name="yandex-verification" content="8ad9afdb53bece63" />}
       />
 
       <HeaderBlock />
