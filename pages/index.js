@@ -9,7 +9,11 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className="container">
-      <HeadTemplate titleName='Главная' />
+      <HeadTemplate 
+      titleName='Главная'
+      google_metrika={<meta name="google-site-verification" content="JMhYCMc3P0fI5OUQdMXK8ccpkzKJY_bFPigeOCOtmRY" />}
+      yandex_metrika=''
+      />
 
       <HeaderBlock />
       <main>
