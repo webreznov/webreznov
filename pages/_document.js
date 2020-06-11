@@ -15,7 +15,7 @@ export default class Document extends NextDocument {
         ...initialProps,
         styles: (
           <>
-            {initialProps.styles}
+            {initialProps.styles}            
             {sheet.getStyleElement()}
           </>
         )
