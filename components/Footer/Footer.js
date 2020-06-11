@@ -19,6 +19,7 @@ const Footer = () => {
                     </p>
                 </a>
             </Link>
+            <a href="https://webmaster.yandex.ru/siteinfo/?site=https://webreznov.now.sh"><img width="58" height="24" alt="" border="0" src="https://yandex.ru/cycounter?https://webreznov.now.sh&theme=light&lang=ru"/></a>
         </FooterStyle>
     )
 }
