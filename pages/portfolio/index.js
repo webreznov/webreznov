@@ -37,7 +37,7 @@ export default function Home() {
 
         <CardWork
           name_work='Небольшой но очень информативный лэндинг.'
-          priviewUrl='/images/143 - Tezoshop.png'
+          priviewUrl='/images/143-Tezoshop.png'
           tags={[
             'TagBitrix',
             'TagBootstrap',
@@ -54,7 +54,7 @@ export default function Home() {
 
         <CardWork
           name_work='Корпоративный информационный сайт Рязанского производителя клеевых продуктов.'
-          priviewUrl='/images/140 - ООО _Рикол_ - Клей ПВА.png'
+          priviewUrl='/images/140-ООО _Рикол_-Клей-ПВА.png'
           tags={[
             'TagBitrix',
             'TagBootstrap',
@@ -88,7 +88,7 @@ export default function Home() {
 
         <CardWork
           name_work='Корпоративный сайт компании'
-          priviewUrl='/images/130-Continent Express.png'
+          priviewUrl='/images/130-Continent-Express.png'
           tags={[
             'TagBitrix',
             'TagBootstrap',
@@ -105,7 +105,7 @@ export default function Home() {
 
         <CardWork
           name_work='Лэндинг для онлайн продаж услуг'
-          priviewUrl='/images/129 - Свадебный организатор Рязань.png'
+          priviewUrl='/images/129-Свадебный-организатор-Рязань.png'
           tags={[
             'TagBitrix',
             'TagBootstrap',
@@ -122,7 +122,7 @@ export default function Home() {
 
         <CardWork
           name_work='Лэндинг для онлайн продаж'
-          priviewUrl='/images/137 - Кресла мешки в Рязани на заказ.png'
+          priviewUrl='/images/137-Кресла-мешки-в-Рязани-на-заказ.png'
           tags={[
             'TagBitrix',
             'TagBootstrap',
@@ -156,7 +156,7 @@ export default function Home() {
 
         <CardWork
           name_work='Простой шаблонный лэндинг'
-          priviewUrl='/images/135 - Title.png'
+          priviewUrl='/images/135-Title.png'
           tags={[
             'TagBitrix',
             'TagBootstrap',

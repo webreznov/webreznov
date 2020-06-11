@@ -32,11 +32,11 @@ export default function Home() {
         <br />
         <h2 className='titleParagraph-big'><Link href='/portfolio'><a>Наши работы</a></Link></h2>
         <PreviewPhoto>
-          <PreviewImg src='images/129 - Свадебный организатор Рязань.png' alt='work template react' />
-          <PreviewImg src='images/130-Continent Express.png' alt='work template react' />
-          <PreviewImg src='images/133 - Развитие ребенка, репетиторский центр в городе Рязань.png' alt='work template react' />
-          <PreviewImg src='images/134 - Tezosbakes Delegation Service .png' alt='work template react' />
-          <PreviewImg src='images/137 - Кресла мешки в Рязани на заказ.png' alt='work template react' />
+          <PreviewImg src='images/129-Свадебный-организатор-Рязань.png' alt='work template react' />
+          <PreviewImg src='images/130-Continent-Express.png' alt='work template react' />
+          <PreviewImg src='images/133-Развитие-ребенка,-репетиторский-центр-в-городе-Рязань.png' alt='work template react' />
+          <PreviewImg src='images/134-Tezosbakes-Delegation-Service.png' alt='work template react' />
+          <PreviewImg src='images/137-Кресла-мешки-в-Рязани-на-заказ.png' alt='work template react' />
         </PreviewPhoto>        
 
       </main>
