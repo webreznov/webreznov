@@ -32,7 +32,7 @@ const CardWork = (props) => {
             <h2>{props.name_work}</h2>
         </div>
         <Preview>
-            <img src={props.priviewUrl} />
+            <img src={props.priviewUrl} alt='preview'/>
         </Preview>
         <div className='use_technologies'>
             {renderTags(props.tags)}
