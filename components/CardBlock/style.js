@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
-export const CardBlock = styled.div`
+export const CardBlockStyle = styled.div`
     display: inline-block;
     width: 45%;
     margin: 20px;
+    a{
+        font-size: 20px;
+    }
     @media all and (max-width: 767px){
         width: auto;
         box-sizing: border-box;

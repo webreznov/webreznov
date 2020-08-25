@@ -8,9 +8,10 @@ import TagReact from '../common/tags/TagReact/TagReact'
 import TagSass from '../common/tags/TagSass/TagSass'
 import TagSQL from '../common/tags/TagSQL/TagSQL'
 import TagWordpress from '../common/tags/TagWordpress/TagWordpress'
-import { Preview, CardBlock } from './style'
+import { Preview, CardBlockStyle } from './style'
+import Link from 'next/link'
 
-const CardWork = (props) => {
+const CardBlock = (props) => {
     const renderTags = (tagsArray) => {
         let resultArray = [];
         tagsArray.forEach((i) => {            
@@ -27,7 +28,7 @@ const CardWork = (props) => {
         });    
         return resultArray;
     }
-    return (<CardBlock>
+    return (<CardBlockStyle>
         <div className='work_name'>
             <h2>{props.name_work}</h2>
         </div>
@@ -37,10 +38,13 @@ const CardWork = (props) => {
         <div className='use_technologies'>
             {renderTags(props.tags)}
         </div>
+        <div>
+            <Link href={props.urlPage}><a target='_blank'>Смотреть</a></Link>
+        </div>
         <div className='descript_work'>
             <p>{props.descript}</p>
         </div>
-    </CardBlock>)
+    </CardBlockStyle>)
 }
 
-export default CardWork;
+export default CardBlock;

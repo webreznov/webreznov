@@ -1,7 +1,7 @@
 import HeaderBlock from '../../components/HeaderBlock/HeaderBlock'
 import Footer from '../../components/Footer/Footer'
 import HeadTemplate from '../../components/HeadTemplate/HeadTemplate'
-import CardWork from '../../components/CardBlock/CardBlock'
+import CardBlock from '../../components/CardBlock/CardBlock'
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         <h2>Портфолио</h2>
         <hr />
 
-        {/* <CardWork
+        {/* <CardBlock
           name_work='Простой шаблонный лэндинг'
           priviewUrl='/images/135 - Title.png'
           tags={[
@@ -36,18 +36,20 @@ export default function Home() {
           descript='Был сверстан' 
           key='1'/> */}
 
-        <CardWork
+        <CardBlock
+          urlPage='http://doctorvet62.ru/'
           name_work='Сайт ветеринарной клиники'
           priviewUrl='/images/doctorvet62.ru.jpg'
-          tags={[            
+          tags={[
             'TagHtml',
-            'TagModx',            
-            'TagSass',            
+            'TagModx',
+            'TagSass',
           ]}
           descript='Задача: добавить адаптивность под разные устройства. Сайт был установлен уже на CMS Modx и необходимо внедряться в структуру.'
           key='13' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://remizovmaxim.github.io/cks-layout/homepage.html'
           name_work='Большой сайт - "Центр Кластерного Развития"'
           priviewUrl='/images/CKS-Homepage.jpg'
           tags={[
@@ -59,7 +61,8 @@ export default function Home() {
           descript='Большой объём работы выполнен в кратчайшие сроки. Ежедневные созвоны для обсуждения текущего этапа. Использование github pages поп росьбе заказчика. Красивое поведение меню. Многочисленные слайдеры, табы, popup'
           key='12' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://avtokresla.net/'
           name_work='Онлайн магазин автокресел'
           priviewUrl='/images/FireShot Capture 016 - Главный пассажир - avtokresla.net.png'
           tags={[
@@ -71,7 +74,8 @@ export default function Home() {
           descript='Задача: редизайн. На сайт уже установлена CMS и необходимо было внедряться в огромное количество компонентов чтобы выполнить задачу. А так же минимальное изменение вёрстки, только CSS'
           key='11' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://portfolio.pearpoof.ru/layouts/fl-ru-bitcoin/'
           name_work='Сервис для криптовалюты'
           priviewUrl='/images/134-Tezosbakes-Delegation-Service.png'
           tags={[
@@ -83,7 +87,8 @@ export default function Home() {
           descript='Криптовалюта и небольшой сервис по работе с ней. Красивые анимации и космический дизайн заставляют пользователей проводить максимальное время на странице. Дизайн великолепный!'
           key='10' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://portfolio.pearpoof.ru/layouts/aranlanding-ru/'
           name_work='Простой шаблонный лэндинг'
           priviewUrl='/images/156-arancucineland.png'
           tags={[
@@ -94,7 +99,8 @@ export default function Home() {
           descript='Цепляющий лэндинг с различными "захватами": отзывы, призывы связяться, преимцщества, специальное предложение'
           key='9' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://portfolio.pearpoof.ru/layouts/tezoshop-com/'
           name_work='Небольшой но очень информативный лэндинг.'
           priviewUrl='/images/143-Tezoshop.png'
           tags={[
@@ -105,7 +111,8 @@ export default function Home() {
           descript='В тематике криптовалюты не очень понимаю, но сверстать по макету вопросов не вызывает. Макет нашей студии. Заказчик доволен. Красивая анимация.'
           key='8' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://portfolio.pearpoof.ru/layouts/rikolrzn-ru/'
           name_work='Корпоративный информационный сайт Рязанского производителя клеевых продуктов.'
           priviewUrl='/images/140-ООО _Рикол_-Клей-ПВА.png'
           tags={[
@@ -117,7 +124,8 @@ export default function Home() {
           descript='Требовалось вдохнуть жизнь в старый дизайн 2000-ых годов. Дизайн со слов заказчика.  Справились на ура!'
           key='7' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://portfolio.pearpoof.ru/layouts/layout-bxx/'
           name_work='Сайт портфолио веб студии'
           priviewUrl='/images/148-zyym-bxx.png'
           tags={[
@@ -128,7 +136,8 @@ export default function Home() {
           descript='Сначала мы не полняли, потом тоже не поняли, но сделали. Клиент прислал макеты и удивительно то, что наша веб студия будет делать портфолио для другой веб студии:D Что ж, и такое значит бывает. Интересные фичи: фиксированное боковое меню и весь контент должен быть всегда в обозреваемом окне. С задачей справились на отлично! Позже клиент установил админку "Битрикс" самостоятельно и еще не раз обращались к нам за помощью, потому что забыли добавить пагинацию, кнопки соц сетей и многое другое. Видимо у них в команде не было верстальщиков. Ну у нас то всё окей с этим;)'
           key='6' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://portfolio.pearpoof.ru/layouts/continent-express-ru/'
           name_work='Корпоративный сайт компании'
           priviewUrl='/images/130-Continent-Express.png'
           tags={[
@@ -139,7 +148,8 @@ export default function Home() {
           descript='В данной работе большое внимание уделено дизайну. Различные анимационные решения, кастомизированные эфекты при наведении на элементы. Динамический счетчик статистики.'
           key='5' />
 
-        <CardWork
+        <CardBlock
+          urlPage='http://anwedding.ru/'
           name_work='Лэндинг для онлайн продаж услуг'
           priviewUrl='/images/129-Свадебный-организатор-Рязань.png'
           tags={[
@@ -150,7 +160,8 @@ export default function Home() {
           descript='Интересное было задание. У клиента были утеряны связи с предыдущим верстальщиком. А так же пароли от хостинга. Необходимо было скопировать сайт и небольшой редизайн. А так же добавить админку для редактирования цен услуг. Здесь реализованы: галлерея фото, всплывающие окна, отправка письма на почту клиента.'
           key='4' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://portfolio.pearpoof.ru/layouts/pearpoofcom/'
           name_work='Лэндинг для онлайн продаж'
           priviewUrl='/images/137-Кресла-мешки-в-Рязани-на-заказ.png'
           tags={[
@@ -161,7 +172,8 @@ export default function Home() {
           descript='Дизайн клиента в точности со слов клиента. Подключены всплывающие окна. Использован маркетинговый ход "Петя купил", "Акция: купи сегодня и получишь скидку". '
           key='3' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://portfolio.pearpoof.ru/layouts/keepkey-pro/'
           name_work='Корпоративный сайт фирмы систем видео наблюдения'
           priviewUrl='/images/136-Компания-KeepKey.png'
           tags={[
@@ -172,7 +184,8 @@ export default function Home() {
           descript='В данной работе требовался полный редизайн и адаптация под мобильный версии.'
           key='2' />
 
-        <CardWork
+        <CardBlock
+          urlPage='https://portfolio.pearpoof.ru/layouts/free-ru/'
           name_work='Простой шаблонный лэндинг'
           priviewUrl='/images/135-Title.png'
           tags={[
